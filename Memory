@@ -1,0 +1,27 @@
+-- Sheet for Rondo Alla Turca by Wolfgang Amadeus Mozart
+
+shared.stop = true -- stops the player at any time if true
+-- CONFIG:
+shared.ftime = 2*60 + 24 -- time in seconds for the song to finish (extended by |)
+shared.delay = nil -- delay overides the ftime
+shared.tempo = nil -- tempo overides the delay
+
+shared.scr = [[ [eutp] [etu] [leut] k [jeut] h 
+[eyif] [yie] [hyie] g [eyif] d
+[wryo] [wry] [wryl] k [wryj] h [wutf] [wtu] [wut] [wut]
+
+[etu] p p a s p p s [ieyd] d d s s d [wyrf] d d d f d s a [wtus] s a s a o [qetp] 
+ j H j [q9ep] j H j [eruf] f d d d f [wru] [wru] [wru] [wru]
+
+[etu] p p a s p p s [ieyd] d d s s d [wyrf] d d d f d s a [wtus] s a s a o [qetp] 
+ j H j [q9ep] j H j [eruf] f d d d f [wru] [wru] [wru] [wru]
+
+[etp] p f [qed] d s [80] f d f p [et] f f [qed] d s [80] 
+ f d f h f [et] j f f [qed] d d [80] h f d d d d f 
+[etp] j [qeH] j [80d] d s d d d f
+
+ [etp] [et] [qel] k [qej] h [80f] [80] [80h] g [80f] d 
+[etp] [et] [qel] k [qej] h [80f] [80] [80h] g [80f] d 
+[etp] [et] [qel] k [qej] h [80f] [80] 80h] g [80f] d 
+[etp] [etj] [qeH] [qej] [80d] [80] d s [80d] d [80d] f 
+[etp] ]]
